@@ -10,21 +10,30 @@ gsap.registerPlugin(ScrollTrigger);
 const MISSIONS = [
   {
     id: '01',
-    name: 'Auto-commiter for DSA',
-    description: 'An automated tool to automatically commit your Data Structures and Algorithms (DSA) solutions to GitHub, streamlining your learning and tracking process.',
-    tech: ['Browser Extension', 'JavaScript', 'HTML/CSS'],
+    name: 'Kisan Vani',
+    description: 'A multilingual AI platform (English, Hindi, Odia) assisting Indian farmers with real-time crop diagnosis, live market prices, soil analysis, and voice accessibility via Sarvam AI.',
+    tech: ['Node.js', 'Express', 'Gemini AI', 'Vanilla JS'],
     image: imgSpiderman,
-    link: 'https://github.com/jyotiswadhindibya-bit/Auto-commiter-for-DSA',
+    link: 'https://github.com/jyotiswadhindibya-bit',
     blend: 'mix-blend-luminosity brightness-75',
   },
   {
     id: '02',
+    name: 'Auto-commiter for DSA',
+    description: 'An automated tool to automatically commit your Data Structures and Algorithms (DSA) solutions to GitHub, streamlining your learning and tracking process.',
+    tech: ['Browser Extension', 'JavaScript', 'HTML/CSS'],
+    image: imgMan,
+    link: 'https://github.com/jyotiswadhindibya-bit/Auto-commiter-for-DSA',
+    blend: 'mix-blend-luminosity grayscale',
+  },
+  {
+    id: '03',
     name: 'Soul Store',
     description: 'A modern platform and storefront application built for a seamless user experience. Engineered for performance and clean UI.',
     tech: ['JavaScript', 'Web', 'UI/UX'],
-    image: imgMan,
+    image: imgSpiderman,
     link: 'https://github.com/jyotiswadhindibya-bit/Soul-Store',
-    blend: 'mix-blend-luminosity grayscale',
+    blend: 'mix-blend-overlay brightness-125 saturate-150',
   }
 ];
 
