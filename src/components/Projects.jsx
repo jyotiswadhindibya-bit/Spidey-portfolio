@@ -10,30 +10,21 @@ gsap.registerPlugin(ScrollTrigger);
 const MISSIONS = [
   {
     id: '01',
-    name: 'Kisan Vani',
-    description: 'A multilingual AI platform (English, Hindi, Odia) assisting Indian farmers with real-time crop diagnosis, live market prices, soil analysis, and voice accessibility via Sarvam AI.',
-    tech: ['Node.js', 'Express', 'Gemini AI', 'Vanilla JS'],
+    name: 'Auto-commiter for DSA',
+    description: 'An automated tool to automatically commit your Data Structures and Algorithms (DSA) solutions to GitHub, streamlining your learning and tracking process.',
+    tech: ['Browser Extension', 'JavaScript', 'HTML/CSS'],
     image: imgSpiderman,
-    link: 'https://github.com/jyotiswadhindibya-bit',
+    link: 'https://github.com/jyotiswadhindibya-bit/Auto-commiter-for-DSA',
     blend: 'mix-blend-luminosity brightness-75',
   },
   {
     id: '02',
-    name: 'Dispatch Dashboard',
-    description: 'An emergency dispatch management dashboard built for HackHorizon. A high-performance Next.js app engineered for operational clarity and fast decision-making.',
-    tech: ['Next.js', 'TypeScript', 'Tailwind', 'Vercel'],
+    name: 'Soul Store',
+    description: 'A modern platform and storefront application built for a seamless user experience. Engineered for performance and clean UI.',
+    tech: ['JavaScript', 'Web', 'UI/UX'],
     image: imgMan,
-    link: 'https://github.com/jyotiswadhindibya-bit',
+    link: 'https://github.com/jyotiswadhindibya-bit/Soul-Store',
     blend: 'mix-blend-luminosity grayscale',
-  },
-  {
-    id: '03',
-    name: 'Bubble Sort Visualizer',
-    description: 'An interactive browser game where falling bubbles with random numbers are sorted in real-time using bubble sort logic — reinforcing DSA fundamentals through visual gameplay.',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-    image: imgSpiderman,
-    link: 'https://github.com/jyotiswadhindibya-bit',
-    blend: 'mix-blend-overlay brightness-125 saturate-150',
   }
 ];
 
